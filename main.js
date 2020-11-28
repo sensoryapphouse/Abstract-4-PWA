@@ -6,14 +6,14 @@ window.onload = () => {
   'use strict';
 
   player = document.getElementById('audio');
-    player.loop = false;
-    player.load();
+  player.loop = false;
+  player.load();
 
-    player1 = document.getElementById('audio1');
-    player1.load();
+  player1 = document.getElementById('audio1');
+  player1.load();
 
-    player2 = document.getElementById('audio2');
-    player2.load();
+  player2 = document.getElementById('audio2');
+  player2.load();
 
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker
